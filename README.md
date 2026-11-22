@@ -16,11 +16,30 @@ Akun uji: `admin@seduhpelan.id` / `admin123`.
 
 ### Screenshot
 
-![Halaman Utama](screenshots/home.png)(screenshots/home-1.png)(screenshots/home-2.png)(screenshots/home-3.png)(screenshots/home-4.png)(screenshots/home-5.png)
-![Detail Informasi](screenshots/detail.png)(screenshots/detail-1.png)(screenshots/detail-2.png)(screenshots/detail-3.png)(screenshots/detail-4.png)
+### Halaman Utama
+![Halaman Utama](screenshots/home.png)
+![Halaman Utama](screenshots/home-1.png)
+![Halaman Utama](screenshots/home-2.png)
+![Halaman Utama](screenshots/home-3.png)
+![Halaman Utama](screenshots/home-4.png)
+![Halaman Utama](screenshots/home-5.png)
+
+### Detail Informasi
+![Detail Informasi](screenshots/detail.png)
+![Detail Informasi](screenshots/detail-1.png)
+![Detail Informasi](screenshots/detail-2.png)
+![Detail Informasi](screenshots/detail-3.png)
+![Detail Informasi](screenshots/detail-4.png)
+
+### Login
 ![Login](screenshots/login.png)
+
+### Registrasi
 ![Registrasi](screenshots/register.png)
-![Menu Utama](screenshots/menu.png)(screenshots/menu-1.png)
+
+### Menu Utama
+![Menu Utama](screenshots/menu.png)
+![Menu Utama](screenshots/menu-1.png)
 
 ## Project 2 (CRUD API)
 
