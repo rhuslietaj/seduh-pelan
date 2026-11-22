@@ -16,11 +16,11 @@ Akun uji: `admin@seduhpelan.id` / `admin123`.
 
 ### Screenshot
 
-![Halaman Utama](screenshots/home.png)
-![Detail Informasi](screenshots/detail.png)
+![Halaman Utama](screenshots/home.png)(screenshots/home-1.png)(screenshots/home-2.png)(screenshots/home-3.png)(screenshots/home-4.png)(screenshots/home-5.png)
+![Detail Informasi](screenshots/detail.png)(screenshots/detail-1.png)(screenshots/detail-2.png)(screenshots/detail-3.png)(screenshots/detail-4.png)
 ![Login](screenshots/login.png)
 ![Registrasi](screenshots/register.png)
-![Menu Utama](screenshots/menu.png)
+![Menu Utama](screenshots/menu.png)(screenshots/menu-1.png)
 
 ## Project 2 (CRUD API)
 
@@ -41,7 +41,7 @@ Data dummy sama dengan `js/data.js` (Project 1). Data disimpan di memori, jadi k
 Contoh body `POST /api/users`:
 
 ```json
-{ "nama": "Budi", "email": "budi@seduhpelan.id", "password": "budi1234" }
+{ "nama": "admin", "email": "admin@seduhpelan.id", "password": "admin123" }
 ```
 
 ### Hasil uji Postman
