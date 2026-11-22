@@ -18,7 +18,6 @@ Akun uji: `admin@seduhpelan.id` / `admin123`.
 
 ### Halaman Utama
 ![Halaman Utama](screenshots/home.png)
-![Halaman Utama](screenshots/home-1.png)
 ![Halaman Utama](screenshots/home-2.png)
 ![Halaman Utama](screenshots/home-3.png)
 ![Halaman Utama](screenshots/home-4.png)
