@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Seduh Pelan - Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gaegu:wght@700&family=Gloock&family=Plus+Jakarta+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="nav">
+        <div class="container nav-in">
+            <nav class="nl"><a href="index.html#info">Tentang</a><a href="index.html#pilihan">Menu</a><a
+                    href="index.html#kunjungi">Kunjungi</a></nav><a class="lg" href="index.html"
+                aria-label="Seduh Pelan"><span class="lg-box"><span class="lg-ic"><svg viewBox="0 0 100 80"
+                            aria-hidden="true">
+                            <g fill="none" stroke="currentColor" stroke-width="4.5" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path
+                                    d="M16 34L14 8 36 22Q50 18 64 22L86 8 84 34Q92 48 80 60Q66 72 50 72 34 72 20 60 8 48 16 34Z" />
+                                <rect x="22" y="36" width="24" height="15" rx="6" fill="currentColor" />
+                                <rect x="54" y="36" width="24" height="15" rx="6" fill="currentColor" />
+                                <path d="M46 43H54" />
+                                <path d="M45 56H55L50 61Z" fill="currentColor" />
+                                <path d="M50 61V65M43 67Q50 71 57 67" />
+                                <path d="M4 50H14M6 61L16 57M96 50H86M94 61L84 57" />
+                            </g>
+                        </svg></span><span class="lg-wm">SEDUH<br>PELAN</span></span><span class="lg-tx">KOPI
+                    &amp;<br>PANCAKE</span></a>
+            <div class="nr"><a href="login.html">Login</a><a class="btn pill blue" href="register.html">Daftar</a></div>
+        </div>
+    </header>
+    <main class="auth2">
+        <section class="auth-l"><span class="mc"><svg viewBox="0 0 100 80" aria-hidden="true">
+                    <g fill="none" stroke="currentColor" stroke-width="4.5" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path
+                            d="M16 34L14 8 36 22Q50 18 64 22L86 8 84 34Q92 48 80 60Q66 72 50 72 34 72 20 60 8 48 16 34Z" />
+                        <rect x="22" y="36" width="24" height="15" rx="6" fill="currentColor" />
+                        <rect x="54" y="36" width="24" height="15" rx="6" fill="currentColor" />
+                        <path d="M46 43H54" />
+                        <path d="M45 56H55L50 61Z" fill="currentColor" />
+                        <path d="M50 61V65M43 67Q50 71 57 67" />
+                        <path d="M4 50H14M6 61L16 57M96 50H86M94 61L84 57" />
+                    </g>
+                </svg></span>
+            <p class="hand">diseduh<br>dengan sabar</p>
+        </section>
+        <section class="auth-r">
+            <div class="formbox"><span class="tagc">Selamat datang kembali</span>
+                <h1>Login</h1>
+                <div id="alert"></div>
+                <form onsubmit="return doLogin(event)"><label for="email">Email</label><input id="email" type="email"
+                        class="form-control pillin mb-3" placeholder="admin@seduhpelan.id"><label
+                        for="pass">Password</label><input id="pass" type="password" class="form-control pillin mb-3"
+                        placeholder="admin123"><button class="btn pill blue w-100">Masuk</button></form>
+                <p style="margin:1rem 0 .3rem">Belum punya akun? <a href="register.html" class="fw-bold">Daftar di
+                        sini</a></p>
+                <p style="font-size:.85rem;margin:0;opacity:.7">Akun uji: admin@seduhpelan.id / admin123</p>
+            </div>
+        </section>
+    </main>
+    <footer class="foot">
+        <div class="container">
+            <div class="fg">
+                <div><a class="lg" href="index.html" aria-label="Seduh Pelan"><span class="lg-box"><span
+                                class="lg-ic"><svg viewBox="0 0 100 80" aria-hidden="true">
+                                    <g fill="none" stroke="currentColor" stroke-width="4.5" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path
+                                            d="M16 34L14 8 36 22Q50 18 64 22L86 8 84 34Q92 48 80 60Q66 72 50 72 34 72 20 60 8 48 16 34Z" />
+                                        <rect x="22" y="36" width="24" height="15" rx="6" fill="currentColor" />
+                                        <rect x="54" y="36" width="24" height="15" rx="6" fill="currentColor" />
+                                        <path d="M46 43H54" />
+                                        <path d="M45 56H55L50 61Z" fill="currentColor" />
+                                        <path d="M50 61V65M43 67Q50 71 57 67" />
+                                        <path d="M4 50H14M6 61L16 57M96 50H86M94 61L84 57" />
+                                    </g>
+                                </svg></span><span class="lg-wm">SEDUH<br>PELAN</span></span><span class="lg-tx">KOPI
+                            &amp;<br>PANCAKE</span></a>
+                    <p>Kafe di Bandung yang menyajikan kopi dan pancake dengan sabar.</p>
+                </div>
+                <div>
+                    <h4>Halaman</h4><a href="index.html">Beranda</a><a href="login.html">Login</a><a
+                        href="register.html">Registrasi</a>
+                </div>
+                <div>
+                    <h4>Kontak</h4><span>Jl. Dipatiukur No. 12,
+                        Bandung</span><span>022-1234567</span><span>halo@seduhpelan.id</span>
+                </div>
+            </div>
+            <div class="copy">@Copyright by 24552011371_JELITA RHUSLIETA_TIF RP 24B CID</div>
+        </div>
+    </footer>
+    <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/art.js"></script>
+</body>
+
+</html>
